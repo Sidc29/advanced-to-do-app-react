@@ -29,7 +29,7 @@ const App = () => {
 
   return (
     <div className="wrapper">
-      <header>Todo List App</header>
+      <header>Todo List</header>
       <form className="inputField" onSubmit={addItem}>
         <input onChange={handleChange} type="text" placeholder="Add new item" value={inputText} />
         <button type="submit"><i className="fas fa-plus"></i></button>
